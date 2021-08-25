@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login('ODc5MjMzMTM0NTczNTQzNDQ1.YSMvqg.uB_qEnFIG7oglt4pVhUb1llFJq0');
+client.login('TOKEN');
 client.on('ready', readyDiscord);
 function readyDiscord() {
     console.log('yes!');
